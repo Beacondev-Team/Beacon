@@ -49,7 +49,7 @@ class Server(commands.Cog):
     @app_commands.command(name="watchserver", description="Posts a server-info embed that keeps itself updated.")
     @app_commands.describe(
         host="A server address, or a saved shorthand from /addhost",
-        interval="How often to refresh, in minutes (minimum 2)",
+        interval=f"How often to refresh, in minutes (minimum {MIN_WATCH_INTERVAL_MINUTES})",
         ping_role="Role to mention when the server's online/offline status changes",
         title="Custom title for the embed (defaults to the server edition)",
     )
