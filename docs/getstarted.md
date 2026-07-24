@@ -17,19 +17,19 @@ Before you even begin to host the bot itself, you need to make an app on the Dis
 
 2. Click 'New Application' in the top right and give it a name before agreeing to the Discord Developer ToS and clicking 'Create' in the window that appears.
 
-    ![Discord Developer Portal window](../assets/images/gettingstarted/D1.png)
+    ![Discord Developer Portal window](assets/images/gettingstarted/D1.png)
 
 3. You're now on your bot's application page. On the 'General Information' page, set an app icon, name (this is what appears as the bot's display name in Discord), description (the bot user's bio in Discord) and app icon.
 
-    ![Discord Developer Portal window](../assets/images/gettingstarted/D2.png)
+    ![Discord Developer Portal window](assets/images/gettingstarted/D2.png)
 
 4. Click 'Bot' in the sidebar, and click the purple 'Reset Token' button. It will get you to authenticate if you have multi-factor authentication enabled, so do this. Copy the token and save it somewhere safe, as you **cannot see this token again without generating a new one.**
 
-    ![Discord Developer Portal window](../assets/images/gettingstarted/D3.png)
+    ![Discord Developer Portal window](assets/images/gettingstarted/D3.png)
 
 5. Scroll down and turn on all the switches under 'Privileged Gateway Intents' and save.
 
-    ![Discord Developer Portal window](../assets/images/gettingstarted/D4.png)
+    ![Discord Developer Portal window](assets/images/gettingstarted/D4.png)
 
 6. Click 'OAuth2' in the sidebar and go to the 'OAuth2 URL Generator' section. From here:
     1. Tick the `bot` box.
