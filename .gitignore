@@ -32,3 +32,9 @@ __pycache__/
 *.swo
 .netrwhist
 undo/
+
+# Mkdocs config backup
+mkdocs.yml.bak
+
+# Zensical site build path
+site/

@@ -1,3 +1,7 @@
+---
+icon: lucide/square-terminal
+---
+
 # Commands
 A list of all the commands in Beacon as of the latest version. A format section is included **only** for commands that include Parameters.
 
@@ -30,13 +34,15 @@ A one-off message to find the status of a Minecraft server.
 ### `/watchserver`
 #### Format
 ```
-/watchserver <host> [interval]
+/watchserver <host> [interval] [ping_role] [title]
 ```
 #### Parameters
 - Host: The server domain or IP address. Shows a list of hosts as defined in the server hosts list.
 - Interval: How often the message should update in minutes. Default of 5 if not set otherwise. Value cannot be less than 2.
+- Ping Role: A role to ping if the server goes offline.
+- Title: A custom title for the embed.
 #### Usage
-Sends a message in the channel it is run in that displays server status (similar to `/getserverinfo`) and updates every few minutes, depending on the time in minutes set in `[interval]`.
+Sends a message in the channel it is run in that displays server status (similar to `/getserverinfo`) and updates every few minutes, depending on the time in minutes set in `[interval]`. A message can also be sent pinging the roles defined in `ping_role` if the server goes offline. A custom embed title can be defined in `title`.
 
 ### `/unwatch`
 #### Format
