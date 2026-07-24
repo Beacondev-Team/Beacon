@@ -1,9 +1,15 @@
-# Getting Started
+---
+name: Get Started
+icon: lucide/package-open
+---
+
+# Get Started
 So, you want to add Beacon to your server? Amazing! There's a few ways you can go about this:
 ## Offical Instance
 Unfortunately, there is no official instance for Beacon yet due to the fact it is in a pre-release stage, but stay tuned, as we're hoping to do this soon!
 
 ## Self Hosting
+As Beacon is fully open source on GitHub, you can self host it if you wish.
 ### Creating a Discord app
 Before you even begin to host the bot itself, you need to make an app on the Discord Developer Portal. This is what you actually invite to your Discord server.
 
@@ -11,19 +17,19 @@ Before you even begin to host the bot itself, you need to make an app on the Dis
 
 2. Click 'New Application' in the top right and give it a name before agreeing to the Discord Developer ToS and clicking 'Create' in the window that appears.
 
-    ![Discord Developer Portal window](assets/images/gettingstarted/D1.png)
+    ![Discord Developer Portal window](../assets/images/gettingstarted/D1.png)
 
 3. You're now on your bot's application page. On the 'General Information' page, set an app icon, name (this is what appears as the bot's display name in Discord), description (the bot user's bio in Discord) and app icon.
 
-    ![Discord Developer Portal window](assets/images/gettingstarted/D2.png)
+    ![Discord Developer Portal window](../assets/images/gettingstarted/D2.png)
 
 4. Click 'Bot' in the sidebar, and click the purple 'Reset Token' button. It will get you to authenticate if you have multi-factor authentication enabled, so do this. Copy the token and save it somewhere safe, as you **cannot see this token again without generating a new one.**
 
-    ![Discord Developer Portal window](assets/images/gettingstarted/D3.png)
+    ![Discord Developer Portal window](../assets/images/gettingstarted/D3.png)
 
 5. Scroll down and turn on all the switches under 'Privileged Gateway Intents' and save.
 
-    ![Discord Developer Portal window](assets/images/gettingstarted/D4.png)
+    ![Discord Developer Portal window](../assets/images/gettingstarted/D4.png)
 
 6. Click 'OAuth2' in the sidebar and go to the 'OAuth2 URL Generator' section. From here:
     1. Tick the `bot` box.
@@ -63,7 +69,7 @@ The GitHub repository has a handy Dockerfile which makes installation with Docke
     DISCORD_TOKEN = ""
     DEV_GUILD =  ""
     ```
-    In the quotes after `DISCORD_TOKEN` with your Discord Bot Token that you got in [step 4 of the previous section](gettingstarted.md#creating-a-discord-app).
+    In the quotes after `DISCORD_TOKEN` with your Discord Bot Token that you got in [step 4 of the previous section](index.md).
 
     In the quotes after `DEV_GUILD` with the Server ID of the server you have invited the bot to. To get this:
 
@@ -81,6 +87,9 @@ The GitHub repository has a handy Dockerfile which makes installation with Docke
 4. From there it should work!
 
 #### Manual Setup
+!!! note
+    Whilst manual setup *is* supported, it is **much** easier to use Docker, as it installs all the dependencies for you. We only recommend this if you know what you're doing.
+
 ##### Prerequesites
 - Python
 
@@ -103,7 +112,7 @@ The GitHub repository has a handy Dockerfile which makes installation with Docke
     DISCORD_TOKEN = ""
     DEV_GUILD =  ""
     ```
-    In the quotes after `DISCORD_TOKEN` with your Discord Bot Token that you got in [step 4 of the previous section](gettingstarted.md#creating-a-discord-app).
+    In the quotes after `DISCORD_TOKEN` with your Discord Bot Token that you got in [step 4 of the previous section](index.md).
 
     In the quotes after `DEV_GUILD` with the Server ID of the server you have invited the bot to. To get this:
 
@@ -121,3 +130,4 @@ The GitHub repository has a handy Dockerfile which makes installation with Docke
     pip install -r requirements.txt
     ```
 5. You can now run `main.py` and it should work!
+

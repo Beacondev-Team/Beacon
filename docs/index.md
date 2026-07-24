@@ -1,5 +1,6 @@
 ---
 title: Home
+icon: lucide/house
 ---
 
 # Welcome to Beacon!
@@ -14,9 +15,6 @@ Beacon is a Discord bot to help out with Minecraft servers.
 - Uses modern Discord slash commands for ease of use
 - Fully open source
 - Can be self hosted if you wish
-
-## Get started
-There is not currently an official hosted instance as the bot is still in a pre-release stage. However, you can self host if you wish!
 
 ## Support
 If you encounter problems or need help, you can go to the [GitHub repository](https://github.com/privatedev11/Beacon) for support!
