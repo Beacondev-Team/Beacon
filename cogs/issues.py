@@ -6,6 +6,7 @@ from discord.ext import commands
 
 import services.github as github_service
 from utils.embeds import build_error_embed
+from config import ISSUE_OPEN_LIMIT, ISSUE_COOLDOWN_TIME
 
 
 class Issues(commands.Cog):
@@ -13,7 +14,7 @@ class Issues(commands.Cog):
             self.bot = bot
 
         @app_commands.command(name="issue", description="Report an issue to the developers!")
-        @app_commands.checks.cooldown(2, 1800.0, key=lambda i: i.user.id)
+        @app_commands.checks.cooldown(ISSUE_OPEN_LIMIT, float(ISSUE_COOLDOWN_TIME), key=lambda i: i.user.id)
         async def issue(self, interaction: discord.Interaction):
             await interaction.response.send_modal(IssueModal())
 
