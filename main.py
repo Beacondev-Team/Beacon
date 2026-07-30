@@ -1,5 +1,5 @@
 # Beacon - a small Discord bot to display Minecraft server information.
-# Copyright (C) 2026 PrivateMe
+# Copyright (C) 2026 Beacondev
 # This program is licenced under the GNU General Public Licence v3. If you did
 # not receive a copy of this licence with the program, please visit
 # https://www.gnu.org/licenses/

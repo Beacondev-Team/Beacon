@@ -25,7 +25,7 @@ class Issues(commands.Cog):
                     # Convert remaining seconds to minutes for a cleaner message
                     minutes_left = round(error.retry_after / 60)
                     await interaction.response.send_message(
-                    f"You are opening issues too fast! Please try again in about {minutes_left} minutes. \nNeed to open more issues? Open one directly on the [GitHub](https://github.com/privatedev11/Beacon).",
+                    f"You are opening issues too fast! Please try again in about {minutes_left} minutes. \nNeed to open more issues? Open one directly on the [GitHub](https://github.com/Beacondev-Team/Beacon).",
                     ephemeral=True
                     )
             else:

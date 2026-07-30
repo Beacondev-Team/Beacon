@@ -15,7 +15,7 @@ GUILD_ID = int(os.getenv("GUILD_ID", "1528725991273398342"))
 
 # --- Issue tracker integrations ---
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-GITHUB_REPO = os.getenv("GITHUB_REPO", "privatedev11/Beacon")
+GITHUB_REPO = os.getenv("GITHUB_REPO", "Beacondev-Team/Beacon")
 
 # --- Misc ---
 DB_PATH = os.getenv("BEACON_DB_PATH", "beacon.db")
