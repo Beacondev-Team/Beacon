@@ -3,7 +3,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Beacondev-Team/Beacon)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Beacondev-Team/Beacon)
 ![GitHub License](https://img.shields.io/github/license/Beacondev-Team/Beacon)
-![GitHub Repo stars](https://img.shields.io/github/stars/Beacondev-Team/Beacon)
+![GitHub Repo stars](https://img.shields.io/github/stars/Beacondev-Team/Beacon) 
 
 A small Discord bot to display Minecraft server information
 
